@@ -4,5 +4,3 @@ def func(lst):
     return sum(lst)
 
 print(func(dict_1))
-
-#2
