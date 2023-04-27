@@ -1,6 +1,7 @@
-#1
-dict_1 = [1,2,3,4,5]
-def func(lst):
-    return sum(lst)
+#2
+s = input('Введіть рядок: ')
+def palindrome(s):
+    s = s.lower()
+    return s == s[::-1]
 
-print(func(dict_1))
+print(palindrome(s))
