@@ -1,6 +1,7 @@
-#1
-dict_1 = [1,2,3,4,5]
-def func(lst):
-    return sum(lst)
+#3
 
-print(func(dict_1))
+dict_1 = ['asd','asdasd','asd','asdd']
+def lens(str):
+    return sorted(str, key=len)
+
+print(lens(dict_1))
