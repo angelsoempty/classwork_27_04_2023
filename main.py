@@ -1,7 +1,7 @@
-#2
-s = input('Введіть рядок: ')
-def palindrome(s):
-    s = s.lower()
-    return s == s[::-1]
+#3
 
-print(palindrome(s))
+dict_1 = ['asd','asdasd','asd','asdd']
+def lens(str):
+    return sorted(str, key=len)
+
+print(lens(dict_1))
